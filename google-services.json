@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965369866064",
+    "firebase_url": "https://reservador-b8176.firebaseio.com",
+    "project_id": "reservador-b8176",
+    "storage_bucket": "reservador-b8176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965369866064:android:f159b8783385c476",
+        "android_client_info": {
+          "package_name": "br.com.reservador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965369866064-l36irdek9f1qlhnqmraor5gppddkv808.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.reservador",
+            "certificate_hash": "3ce3aa3bda0bbe19ad6233812a9fb83ea0ba6b84"
+          }
+        },
+        {
+          "client_id": "965369866064-crc1si481pvdfm8suqd3actmrei6p6u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7KmjzttLoZZKeTm_8Mk4WDf-AZ6Zldak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965369866064-crc1si481pvdfm8suqd3actmrei6p6u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

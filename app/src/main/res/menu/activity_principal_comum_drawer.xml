@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Dados Empresa">
+        <menu>
+            <item
+                android:id="@+id/menu_vinculo_empresa"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="Vincular Empresa" />
+        </menu>
+    </item>
+    <item android:title="Dados Reserva">
+        <menu>
+            <item
+                android:id="@+id/menu_cad_reserva_comum"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="Reservar Itens" />
+            <item
+                android:id="@+id/menu_lista_reserva_comum"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Minhas Reservas" />
+        </menu>
+    </item>
+    <item android:title="Meus Dados">
+        <menu>
+            <item
+                android:id="@+id/menu_trocar_senha_comum"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Alterar Senha" />
+            <item
+                android:id="@+id/menu_logout_comum"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

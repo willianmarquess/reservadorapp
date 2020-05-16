@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Dados Empresa">
+        <menu>
+        <item
+            android:id="@+id/menu_cad_empresa"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Gravar Empresa" />
+            <item
+                android:id="@+id/menu_share_empresa"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar Código Empresa" />
+        </menu>
+    </item>
+    <item android:title="Dados Itens">
+        <menu>
+        <item
+            android:id="@+id/menu_cad_item"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Gravar Itens" />
+            <item
+                android:id="@+id/menu_list_item"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Listar Itens" />
+    </menu>
+    </item>
+
+    <item android:title="Meus Dados">
+        <menu>
+            <item
+                android:id="@+id/menu_trocar_senha"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Alterar Senha" />
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+
+</menu>
